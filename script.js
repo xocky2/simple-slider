@@ -25,10 +25,7 @@ let currentImageIndex = 0;
         function btn(clicked_id){
             let id = clicked_id;
 
-            for(let x=0;x>2;x++){
-                imagens[x].classList.remove('ativa');
-            }
-            
+            imagens[0].classList.remove('ativa');
             imagens[1].classList.remove('ativa');
             imagens[2].classList.remove('ativa');
             console.log(clicked_id);
